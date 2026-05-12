@@ -32,12 +32,27 @@
 // console.log(fruits);
 
 //FOR LOOP(loop repeats codes again and again)
-let fruits = ["apple", "banana", "mango"];
-// console.log(fruits)
+// let fruits = ["apple", "banana", "mango"];
+// // console.log(fruits)
+// for(let i = 0; i < 4; i++)
+// {
+//     console.log(fruits[i]);
 
-for(let i = 0; i < 4; i++)
-{
-    console.log(fruits[i]);
+// }
 
-}
+//FOR EACH (run code for every element)
+// let fruits = ["Apple", "Banana", "Mango"];
+// fruits.forEach(function(item) {
+//     console.log(item);
+// });
 
+// INCLUDES (CHECKS WEARHER THat element exist or not)
+// let fruits = ["Apple", "Banana", "Mango"];
+// console.log(fruits.includes("Apple"));
+
+// INDEXOF(position of an element)
+let fruits = ["Apple", "Banana", "Mango"];
+console.log(fruits.indexOf("Banana"));
+console.log(fruits.indexOf("Apple"));
+
+// SLICE()
