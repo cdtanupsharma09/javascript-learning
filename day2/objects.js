@@ -21,7 +21,9 @@ let person ={
     name:'anup',
     age:21,
     greet: function(){
-        console.log("Hello"  + this.name);
+        console.log("Hello "  + this.name);
     }
 };
+const myage = person.age
+console.log(myage)
 person.greet();
