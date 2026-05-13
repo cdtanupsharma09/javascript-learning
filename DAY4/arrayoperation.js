@@ -51,8 +51,32 @@
 // console.log(fruits.includes("Apple"));
 
 // INDEXOF(position of an element)
-let fruits = ["Apple", "Banana", "Mango"];
-console.log(fruits.indexOf("Banana"));
-console.log(fruits.indexOf("Apple"));
+// let fruits = ["Apple", "Banana", "Mango"];
+// console.log(fruits.indexOf("Banana"));
+// console.log(fruits.indexOf("Apple"));
 
-// SLICE()
+// SLICE(like if you select from 1234 and choose from 1 to 4 it will sart from 2 and print 2,3,4 it will exclude 1)
+// let nums = [1,2,3,4,5];
+// console.log(nums.slice(1,2)); 
+// console.log(nums.slice(3));
+// console.log(nums.slice(1,4));
+// console.log(nums.slice(1,5));
+
+//SPLICE (delete middle element)
+// let nums = [1,2,3];
+// nums.splice(1,1);
+// console.log(nums);
+
+// MAP 
+//  let nums = [1,2,3];
+// let doubled = nums.map(num => num * 2);//important point is it multiplies every number by given multiplication value and creates a new array
+// console.log(doubled);
+
+// FILTER - it will only keep matching elements.
+// let nums = [1,2,3,4];
+// let even = nums.filter(num => num % 2 === 0);
+// console.log(even);
+
+// let nums = [1,2,3,4];
+// let odd = nums.filter(num => num % 2 !== 0);
+// console.log(odd);
