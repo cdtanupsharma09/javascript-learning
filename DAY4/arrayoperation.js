@@ -1,4 +1,4 @@
-//array is globsl object used to store data in a list-like format.
+//array is global object used to store data in a list-like format.
 
 //CREATE ARRAY
 // let fruits = ["apple","banana","mango"];
@@ -11,7 +11,7 @@
 // fruits[1] = "orange";
 // console.log(fruits);
 
-//ADDING ELEMRENTS USING PUSH
+//ADDING ELEMENTS USING PUSH
 // let fruits = ["apple", "banana","mango"];
 // fruits.push("grapes");
 // console.log(fruits);
@@ -55,7 +55,7 @@
 // console.log(fruits.indexOf("Banana"));
 // console.log(fruits.indexOf("Apple"));
 
-// SLICE(like if you select from 1234 and choose from 1 to 4 it will sart from 2 and print 2,3,4 it will exclude 1)
+// SLICE(like if you select from 1234 and choose from 1 to 4 it will start from 2 and print 2,3,4 it will exclude 1)
 // let nums = [1,2,3,4,5];
 // console.log(nums.slice(1,2)); 
 // console.log(nums.slice(3));
@@ -80,3 +80,4 @@
 // let nums = [1,2,3,4];
 // let odd = nums.filter(num => num % 2 !== 0);
 // console.log(odd);
+
