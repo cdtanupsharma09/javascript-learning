@@ -22,6 +22,55 @@ function mul(a, b){
 const arrowmul = (a, b)=>{
    console.log(a*b);
 };
+const printhello = () => {
+console.log("hello");
+
+};
+
+        function countvowels(str) {
+   let count =0;
+   for(const char of str) {
+      if (
+         char === "a"||
+         char === "e"||
+         char === "i"||
+         char === "o"||
+         char === "u"
+      ){
+count++;
+      }
+ 
+}
+return count;
+}
+
+
+const countvowel = (str) => {
+let count = 0;
+for(const char of str) {
+   if (
+      char === "a"||
+      char === "e"||
+      char === "i"||
+      char === "o"||
+      char === "u"
+   ) {
+count++;
+   }
+} 
+return count ; 
+};
+let nums =[67,52,39];
+ let newArr = nums.map((value)=>{
+   return value*value;
+ } );
+ console.log(newArr);
+ 
+ let arr =[1,2,3,4,5,6,7,8,9];
+let evenArr = arr.filter((val) => {
+   return val % 2 !== 0;
+});
+console.log(evenArr);
 
     </script>
 </body>
