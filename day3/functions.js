@@ -111,7 +111,7 @@
 
 // arr.forEach((value)=>{
 // console.log(value.toUpperCase());
-// });//EXAMPLE OF CALLBACK
+//});//EXAMPLE OF CALLBACK
 
 // let arr = ["gangtok","sikkim","delhi","pakisthan"];
 
@@ -144,6 +144,10 @@
 //    return val % 2 !== 0; //  ===to get even output and !== to get odd output.
 // });
 // console.log(evenArr);
+//FILTER LONG WORDS
+// const word = ["cat","elephant","dog","rhinoceros","ant","tiger"];
+// const longword = word.filter(value => value.length > 4 );
+//  console.log(longword);
 
 //REDUCE METHOD-- perform some operations and reduces the array to a single value. it returns that single value.
 // let arr =[1,2,3,4,5,6,7];
