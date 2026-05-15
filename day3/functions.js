@@ -137,14 +137,11 @@
 //  } );
 //  console.log(newArr);
 
-//  let calcsqare = (num)=>{
-//    console.log(num*num);
-//  };
- 
+
 // FILTER METHOD IN AN ARRAY FUNCTION -- filter out as per the condition.
 // let arr =[1,2,3,4,5,6,7,8,9];
 // let evenArr = arr.filter((val) => {
-//    return val % 2 !== 0;
+//    return val % 2 !== 0; //  ===to get even output and !== to get odd output.
 // });
 // console.log(evenArr);
 
@@ -161,4 +158,15 @@
 // return result > current ? result : current;//it is the conditon to get largest output.
 // });
 // console.log(output);
+
+//FIND METHOD -- it is used to checks each item in an array and gives back the first matching item.
+// let marks =[12,22,34,45,67,89,92];
+// let result = marks.find((num) => num > 80);
+// console.log(result);
+
+//SORT ARRAY METHOD
+// let alphabet = ["g","h","f","b","d","a","e","c"];
+// console.log(alphabet);
+// alphabet.sort();
+// console.log(alphabet); 
 
