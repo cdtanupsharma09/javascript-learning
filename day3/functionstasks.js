@@ -53,7 +53,9 @@
 // });
 // console.log(output);
 
-const nums = [1, 2, 3, 4, 5, 6, 7, 8];
-const result = nums.map(x => x * x)
-nums.filter(square => square > 20);
-console.log(result);
+//MAP+FILTER COMBO
+// const nums = [1, 2, 3, 4, 5, 6, 7, 8];
+// const result = nums.map(x => x * x)
+// nums.filter(square => square > 20);
+// console.log(result);
+
