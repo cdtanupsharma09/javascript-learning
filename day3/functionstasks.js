@@ -54,8 +54,39 @@
 // console.log(output);
 
 //MAP+FILTER COMBO
-const nums = [1, 2, 3, 4, 5, 6, 7, 8];
-const result = nums.map(x => x * x);
-nums.filter(x => x > 20);
-console.log(result);
+// const nums = [1, 2, 3, 4, 5, 6, 7, 8];
+// const result = nums.map(x => x * x);
+// nums.filter(x => x > 20);
+// console.log(result);
 
+// LEVEL--4 __REAL-WORLD PROBLEMS
+// STUDENT REPORT CARD
+// let student = [
+// { name : "aarav", marks : [85, 78, 92]},
+// { name : "diya", marks : [45, 52, 60]},
+// { name : "rohan", marks : [70, 75, 80]},
+// { name : "priya", marks : [90, 95, 88]}
+// ];
+// let result= student.map(student =>({
+//     name: student.name, 
+//     average: student.total}))
+//     student.filter(student => student.average>70)
+//     console.log(result);
+//     let studentp= student.find(student => student.name.startsWith("p"));
+//     console.log("first student stating with p:",studentp);
+
+
+//SHOPPING CART TOTAL
+const cart = [
+    { item: "Pen",     price: 20, qty: 3 },
+    { item: "Book",    price: 150, qty: 2 },
+    { item: "Eraser",  price: 10, qty: 5 },
+    { item: "Bag",     price: 800, qty: 1 }
+  ];
+  const total = cart.reduce((total, product) => {
+    return total +(product.price * product.qty);
+  }, 0);
+  
+  console.log(total);
+ 
+  
