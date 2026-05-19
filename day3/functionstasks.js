@@ -61,21 +61,34 @@
 
 // LEVEL--4 __REAL-WORLD PROBLEMS
 // STUDENT REPORT CARD
-// let student = [
-//     { name: "aarav", marks: [85, 78, 92] },
-//     { name: "diya", marks: [45, 52, 60] },
-//     { name: "rohan", marks: [70, 75, 80] },
-//     { name: "priya", marks: [90, 95, 88] }
-//   ];
-  
-// let result = student
-// student.map(student =>({
-// name: student.name,
-// total: student.marks.reduce((previous, current) => previous + current)
-// }))
-// student.filter(student => student.total / 3 > 70)
-// student.find(student => student.name.startsWith('p'));
+let student = [
+    { name: "aarav", marks: [85, 78, 92] },
+    { name: "diya", marks: [45, 52, 60] },
+    { name: "rohan", marks: [70, 75, 80] },
+    { name: "priya", marks: [90, 95, 88] }
+  ];
+
+let result =
+student.map(student =>({
+name: student.name,
+total: student.marks.reduce((previous, current) => previous + current)
+}));
+
+
+// let studentfilter = student.filter(student => {
+// let total = student.marks.reduce((acc, curr)=> acc + curr, 0);
+// let avg = total/student.marks.length;
+// return avg > 70;
+// })
+
+// const studentFind = student.find(student =>{
+//    let result = student.name.startsWith('r')
+//    return result;
+// })
+// console.log(studentFind)
+// let studentfind = 
 // console.log(result);
+// console.log(studentfilter);
 
 //SHOPPING CART TOTAL
 // const cart = [
@@ -88,6 +101,28 @@
 //     return total + (items.price * items.qty);
 //   },0);
 //   console.log(total);
- 
-  const sentence ="the quick brown fox jumps over the lazy dog the fox ";
+
+//WORD COUNTER
+// const sentence = "the quick brown fox jumps over the lazy dog the fox";
+
+//   const words =["the", "quick", "brown", "fox","jumps", "over" ,"the" , "lazy" ,"dog", "the", "fox"];
+// // const words = sentence.split(" ");
+
+//   const ourResult = words.reduce((acc, curr)=>{
+//     acc[curr] = (acc[curr] || 0) + 1
+//         return acc;
+//   }, {})
+//   console.log(ourResult)
+
+// Level 5 — Challenge Problems
+// Q13. Flashcard Mastery (SpacedRevision style)
+// Given:
+const flashcards = [
+    { id: 1, topic: "JS", correct: 8, attempts: 10 },
+    { id: 2, topic: "JS", correct: 3, attempts: 10 },
+    { id: 3, topic: "React", correct: 9, attempts: 10 },
+    { id: 4, topic: "React", correct: 5, attempts: 10 },
+    { id: 5, topic: "CSS", correct: 7, attempts: 10 }
+  ];
   
+ 
