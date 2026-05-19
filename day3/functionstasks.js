@@ -124,5 +124,5 @@ const flashcards = [
     { id: 4, topic: "React", correct: 5, attempts: 10 },
     { id: 5, topic: "CSS", correct: 7, attempts: 10 }
   ];
-  
+  let
  
