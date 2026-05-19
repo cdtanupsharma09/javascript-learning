@@ -62,31 +62,32 @@
 // LEVEL--4 __REAL-WORLD PROBLEMS
 // STUDENT REPORT CARD
 // let student = [
-// { name : "aarav", marks : [85, 78, 92]},
-// { name : "diya", marks : [45, 52, 60]},
-// { name : "rohan", marks : [70, 75, 80]},
-// { name : "priya", marks : [90, 95, 88]}
-// ];
-// let result= student.map(student =>({
-//     name: student.name, 
-//     average: student.total}))
-//     student.filter(student => student.average>70)
-//     console.log(result);
-//     let studentp= student.find(student => student.name.startsWith("p"));
-//     console.log("first student stating with p:",studentp);
-
+//     { name: "aarav", marks: [85, 78, 92] },
+//     { name: "diya", marks: [45, 52, 60] },
+//     { name: "rohan", marks: [70, 75, 80] },
+//     { name: "priya", marks: [90, 95, 88] }
+//   ];
+  
+// let result = student
+// student.map(student =>({
+// name: student.name,
+// total: student.marks.reduce((previous, current) => previous + current)
+// }))
+// student.filter(student => student.total / 3 > 70)
+// student.find(student => student.name.startsWith('p'));
+// console.log(result);
 
 //SHOPPING CART TOTAL
-const cart = [
-    { item: "Pen",     price: 20, qty: 3 },
-    { item: "Book",    price: 150, qty: 2 },
-    { item: "Eraser",  price: 10, qty: 5 },
-    { item: "Bag",     price: 800, qty: 1 }
-  ];
-  const total = cart.reduce((total, product) => {
-    return total +(product.price * product.qty);
-  }, 0);
-  
-  console.log(total);
+// const cart = [
+//      { item: "Pen",   price: 20, qty: 3 },
+//     { item: "Book",  price: 150, qty: 2 },
+//      { item: "Eraser",price: 10, qty: 5 },
+//     { item: "Bag",   price: 800, qty: 1 }
+//   ];
+//   const total = cart.reduce((total, items) => {
+//     return total + (items.price * items.qty);
+//   },0);
+//   console.log(total);
  
+  const sentence ="the quick brown fox jumps over the lazy dog the fox ";
   

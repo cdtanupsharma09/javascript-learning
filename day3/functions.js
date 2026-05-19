@@ -172,38 +172,16 @@
 // let alphabet = ["g","h","f","b","d","a","e","c"];
 // console.log(alphabet);
 // alphabet.sort();
-// console.log(alphabet); 
+// // console.log(alphabet); 
 
-// const students = [
-//    { name: "Aarav", marks: [85, 78, 92] },
-//    { name: "Diya",  marks: [45, 52, 60] },
-//    { name: "Rohan", marks: [70, 75, 80] },
-//    { name: "Priya", marks: [90, 95, 88] }
+// const cart = [
+//    { item: "Pen",     price: 20, qty: 3 },
+//    { item: "Book",    price: 150, qty: 2 },
+//    { item: "Eraser",  price: 10, qty: 5 },
+//    { item: "Bag",     price: 800, qty: 1 }
 //  ];
+//  const total = cart.reduce((total, product) => {
+//    return total +(product.price * product.qty);
+//  }, 0);
  
-//  // 1. Using map() to create [{ name, total }, ...]
-//  const totals = students.map(student => {
-//    const total = student.marks.reduce((sum, mark) => sum + mark, 0);
-//    return {
-//      name: student.name,
-//      total: total
-//    };
-//  });
- 
-//  console.log("Total Marks:", totals);
- 
-//  // 2. Using filter() to find students with average above 70
-//  const above70 = students.filter(student => {
-//    const total = student.marks.reduce((sum, mark) => sum + mark, 0);
-//    const average = total / student.marks.length;
-//    return average > 70;
-//  });
- 
-//  console.log("Average above 70:", above70);
- 
-//  // 3. Using find() to get the first student whose name starts with 'P'
-//  const studentP = students.find(student =>
-//    student.name.startsWith("P")
-//  );
- 
-//  console.log("First student starting with P:", studentP);
+//  console.log(total);
